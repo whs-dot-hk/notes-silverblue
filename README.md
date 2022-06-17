@@ -14,3 +14,11 @@ rpm-ostree install \
   xorg-x11-drv-nvidia-cuda \
   ;
 ```
+
+# Vim and emacs
+```sh
+rpm-ostree install \
+  emacs \
+  vim \
+  ;
+```
