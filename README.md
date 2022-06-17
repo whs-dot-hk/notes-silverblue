@@ -14,16 +14,3 @@ rpm-ostree install \
   xorg-x11-drv-nvidia-cuda \
   ;
 ```
-
-# Virtualization
-```sh
-rpm-ostree install \
-  libguestfs-tools \
-  libvirt-daemon-config-network \
-  libvirt-daemon-kvm \
-  qemu-kvm \
-  virt-install \
-  virt-manager \
-  virt-viewer \
-  ;
-```
