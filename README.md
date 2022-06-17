@@ -22,3 +22,19 @@ rpm-ostree install \
   vim \
   ;
 ```
+
+# Flatpak remotes
+```sh
+flatpak remote-add --if-not-exists fedora oci+https://registry.fedoraproject.org
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+# Filezilla
+```sh
+flatpak install fedora filezilla
+```
+
+# Keepassxc
+```sh
+flatpak install flathub org.keepassxc.KeePassXC
+```
